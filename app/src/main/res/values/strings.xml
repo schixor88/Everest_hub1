@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Everest</string>
+    <string name="password_hint">Password</string>
+    <string name="email_hint">Email</string>
+    <string name="login_title">Login</string>
+    <string name="login_btn_text">Login to account</string>
+    <string name="login_reg_btn_text">Need a new account?</string>
+    <string name="action_search_text">Search</string>
+    <string name="account_setting_text">Account Settings</string>
+    <string name="action_logout_text">Logout</string>
+    <string name="reg_btn_text">Create new Account</string>
+    <string name="reg_login_text">Already have an Account?</string>
+    <string name="reg_pass_text">Password</string>
+    <string name="reg_confirm_pass_text">Confirm Password</string>
+</resources>

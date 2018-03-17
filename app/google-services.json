@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "704624477270",
+    "firebase_url": "https://everest-79906.firebaseio.com",
+    "project_id": "everest-79906",
+    "storage_bucket": "everest-79906.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704624477270:android:39e5b53e68193cee",
+        "android_client_info": {
+          "package_name": "com.example.kushagra.everest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704624477270-f9etee081aeuf0lf6qfu7fij5p2i243p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kushagra.everest",
+            "certificate_hash": "a3f0aff6a4fbfd91ceb2d57d1c4675c6db7668b6"
+          }
+        },
+        {
+          "client_id": "704624477270-8fk8tcj2mc8ar98ulrf2qf25faln40se.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJMDlhgtFwiagEIin7VjtU3KweYxmxDOA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704624477270-8fk8tcj2mc8ar98ulrf2qf25faln40se.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
