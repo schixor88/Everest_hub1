@@ -77,7 +77,7 @@ public class RegisterActivity extends AppCompatActivity {
 
                                         //After creating account send to account setting to make user set up his name
 
-                                        Intent setupIntent = new Intent(RegisterActivity.this, SetupActivity.class);
+                                        Intent setupIntent = new Intent(RegisterActivity.this, SettingActivity.class);
                                         startActivity(setupIntent);
                                         finish();
                                     }

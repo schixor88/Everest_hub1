@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.widget.Toolbar;
 
 import com.google.firebase.auth.FirebaseAuth;
@@ -16,6 +18,8 @@ public class MainActivity extends AppCompatActivity {
 
     private FirebaseAuth mAuth;
 
+    private Button chat_btn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,10 +27,21 @@ public class MainActivity extends AppCompatActivity {
 
         mAuth = FirebaseAuth.getInstance();
 
+        chat_btn = (Button) findViewById(R.id.chat_btn);
+
         mainToolbar = (android.support.v7.widget.Toolbar) findViewById(R.id.main_toolbar);
         setSupportActionBar(mainToolbar);
-
         getSupportActionBar().setTitle("EEMC Hub");
+
+
+        chat_btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intentChat = new Intent(MainActivity.this, ChatActivity.class);
+                startActivity(intentChat);
+
+            }
+        });
 
 
 
@@ -68,6 +83,8 @@ public class MainActivity extends AppCompatActivity {
 
                 logOut();
                 return true;
+
+            
 
             default:
                 return false;
