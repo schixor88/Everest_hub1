@@ -25,7 +25,8 @@
             android:screenOrientation="portrait" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".ChatActivity" />
-        <activity android:name=".SettingActivity"></activity>
+        <activity android:name=".SettingActivity" />
+        <activity android:name=".StatusActivity" android:parentActivityName=".SettingActivity"></activity>
     </application>
 
 </manifest>

@@ -84,13 +84,21 @@ public class MainActivity extends AppCompatActivity {
                 logOut();
                 return true;
 
-            
+            case R.id.action_settings_btn:
+
+                settings();
 
             default:
                 return false;
 
         }
 
+    }
+
+    private void settings() {
+
+        Intent loginIntent = new Intent(MainActivity.this, SettingActivity.class);
+        startActivity(loginIntent);
     }
 
     private void logOut() {
